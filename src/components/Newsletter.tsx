@@ -37,7 +37,10 @@ export default function Newsletter() {
               </form>
               <p className="mt-3 text-sm text-indigo-200">
                 We care about the protection of your data. Read our{' '}
-                <A href="/" className="text-white font-medium underline">
+                <A
+                  href="https://ideamarket.io/TOS.pdf"
+                  className="text-white font-medium underline"
+                >
                   Privacy Policy.
                 </A>
               </p>
