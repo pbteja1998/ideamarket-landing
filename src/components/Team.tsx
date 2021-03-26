@@ -112,8 +112,7 @@ const members: Member[] = [
     Blocktower Capital and GSR.io. Mike is also a musician and psychology 
     writer with several guest posts on 
     [Ribbonfarm](https://www.ribbonfarm.com/2020/09/03/wittgensteins-revenge/).`,
-    image:
-      'https://pbs.twimg.com/profile_images/1343590273104846848/4-8zxCRh_400x400.jpg',
+    image: '/mike.jpeg',
     social: {
       twitter: 'https://twitter.com/harmonylion1',
       linkedin: 'https://www.linkedin.com/in/harmonylion/',
@@ -128,8 +127,7 @@ const members: Member[] = [
     in the history of Ethereum.
      
     `,
-    image:
-      'https://media-exp1.licdn.com/dms/image/C5603AQG7eaQu8I4P2Q/profile-displayphoto-shrink_400_400/0/1599398891343?e=1622073600&v=beta&t=W2L6yLcfEEaN6q2ip3o3yoht0RXq-lvh9GqTH5-ee_E',
+    image: '/alex.jpeg',
     social: {
       twitter: 'https://twitter.com/bobface16',
       linkedin: 'https://www.linkedin.com/in/alexander-schlindwein-aa57861b6/',
