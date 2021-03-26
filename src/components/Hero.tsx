@@ -201,13 +201,9 @@ export default function Hero() {
                   className="mt-4 ml-8 flex flex-grow flex-shrink-0 justify-center lg:flex-grow-0 lg:ml-4 w-20 md:w-44"
                   data-aos="zoom-y-out"
                 >
-                  <A
-                    href="https://www.nasdaq.com/articles/ideamarket-is-a-literal-marketplace-for-ideas-and-online-reputation-2021-02-19"
-                    target="_blank"
-                    rel="noopener noreferrer nofollow"
-                  >
+                  <A href="https://www.nasdaq.com/articles/ideamarket-is-a-literal-marketplace-for-ideas-and-online-reputation-2021-02-19">
                     <img
-                      className="h-10"
+                      className="h-10 opacity-50"
                       src="https://ideamarket.io/nasdaq.png"
                       alt="Nasdaq"
                     />
@@ -217,13 +213,9 @@ export default function Hero() {
                   className="mt-4 ml-8 flex flex-grow flex-shrink-0 justify-center lg:flex-grow-0 lg:ml-4 w-20 md:w-44"
                   data-aos="zoom-y-out"
                 >
-                  <A
-                    href="https://www.vice.com/en/article/pkd8nb/people-have-spent-over-dollar1-million-on-a-literal-marketplace-of-ideas"
-                    target="_blank"
-                    rel="noopener noreferrer nofollow"
-                  >
+                  <A href="https://www.vice.com/en/article/pkd8nb/people-have-spent-over-dollar1-million-on-a-literal-marketplace-of-ideas">
                     <img
-                      className="h-10"
+                      className="h-10 opacity-50"
                       src="https://ideamarket.io/vice.png"
                       alt="Vice"
                     />
@@ -233,13 +225,9 @@ export default function Hero() {
                   className="mt-4 ml-8 flex flex-grow flex-shrink-0 justify-center lg:flex-grow-0 lg:ml-4 w-20 md:w-44"
                   data-aos="zoom-y-out"
                 >
-                  <A
-                    href="https://www.coindesk.com/ideamarket-online-ideas-online-reputation"
-                    target="_blank"
-                    rel="noopener noreferrer nofollow"
-                  >
+                  <A href="https://www.coindesk.com/ideamarket-online-ideas-online-reputation">
                     <img
-                      className="h-10"
+                      className="h-10 opacity-50"
                       src="https://ideamarket.io/coindesk.png"
                       alt="Coindesk"
                     />
@@ -254,11 +242,13 @@ export default function Hero() {
               <div className="flex-1 w-full bg-brand" />
             </div>
             <div className="max-w-7xl mx-auto px-4 sm:px-6">
-              <img
-                className="relative rounded-lg shadow-lg"
-                src="/preview-2.png"
-                alt="App preview screenshot"
-              />
+              <A href="https://ideamarket.io">
+                <img
+                  className="relative rounded-lg shadow-2xl"
+                  src="/preview.png"
+                  alt="App preview screenshot"
+                />
+              </A>
             </div>
           </div>
         </div>
