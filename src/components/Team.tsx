@@ -21,7 +21,7 @@ function TeamMember({ member }: { member: Member }) {
           data-aos="flip-left"
         >
           <img
-            className="object-cover shadow-lg rounded-lg"
+            className="object-cover object-top shadow-lg rounded-lg"
             src={member.image}
             alt={member.name}
           />
