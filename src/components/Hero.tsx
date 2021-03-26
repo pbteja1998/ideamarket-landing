@@ -176,38 +176,38 @@ export default function Hero() {
                 </A>
               </div>
 
-              <div className="flex flex-wrap justify-center space-x-4 mt-4">
+              <div className="flex flex-wrap justify-center space-x-6 mt-4">
                 <div
-                  className="mt-4 ml-8 flex flex-grow flex-shrink-0 justify-center lg:flex-grow-0 lg:ml-4 w-20 md:w-44"
+                  className="flex flex-shrink-0 justify-center flex-grow-0 mt-4"
                   data-aos="zoom-y-out"
                 >
                   <A href="https://www.nasdaq.com/articles/ideamarket-is-a-literal-marketplace-for-ideas-and-online-reputation-2021-02-19">
                     <img
-                      className="h-10 opacity-50"
+                      className="h-8 opacity-50"
                       src="https://ideamarket.io/nasdaq.png"
                       alt="Nasdaq"
                     />
                   </A>
                 </div>
                 <div
-                  className="mt-4 ml-8 flex flex-grow flex-shrink-0 justify-center lg:flex-grow-0 lg:ml-4 w-20 md:w-44"
+                  className="flex flex-shrink-0 justify-center flex-grow-0 mt-4"
                   data-aos="zoom-y-out"
                 >
                   <A href="https://www.vice.com/en/article/pkd8nb/people-have-spent-over-dollar1-million-on-a-literal-marketplace-of-ideas">
                     <img
-                      className="h-10 opacity-50"
+                      className="h-8 opacity-50"
                       src="https://ideamarket.io/vice.png"
                       alt="Vice"
                     />
                   </A>
                 </div>
                 <div
-                  className="mt-4 ml-8 flex flex-grow flex-shrink-0 justify-center lg:flex-grow-0 lg:ml-4 w-20 md:w-44"
+                  className="flex flex-shrink-0 justify-center flex-grow-0 mt-4"
                   data-aos="zoom-y-out"
                 >
                   <A href="https://www.coindesk.com/ideamarket-online-ideas-online-reputation">
                     <img
-                      className="h-10 opacity-50"
+                      className="h-8 opacity-50"
                       src="https://ideamarket.io/coindesk.png"
                       alt="Coindesk"
                     />
