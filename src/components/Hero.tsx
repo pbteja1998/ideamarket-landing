@@ -99,82 +99,6 @@ export default function Hero() {
                     </A>
                   </div>
                 </div>
-
-                <div className="absolute flex items-center justify-end inset-y-0 right-0 space-x-4">
-                  <button
-                    type="button"
-                    className="inline-flex sm:hidden items-center p-3 border border-transparent rounded-full shadow-sm text-indigo-700 bg-indigo-100 hover:bg-indigo-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-                    onClick={() => setIsOpen(true)}
-                  >
-                    <svg
-                      className="h-6 w-6"
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"
-                      />
-                    </svg>
-                  </button>
-
-                  <button
-                    type="button"
-                    className="hidden sm:inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-brand-blue bg-indigo-100 hover:bg-indigo-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-                    data-aos="zoom-in-up"
-                    onClick={() => setIsOpen(true)}
-                  >
-                    <svg
-                      className="-ml-1 mr-3 h-5 w-5"
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"
-                      />
-                    </svg>
-                    Watch Intro
-                  </button>
-                  <A
-                    type="button"
-                    className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-brand hover:bg-brand-blue focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-                    href="https://ideamarket.io"
-                    data-aos="zoom-in-down"
-                  >
-                    <svg
-                      className="-ml-1 mr-3 h-5 w-5"
-                      xmlns="http://www.w3.org/2000/svg"
-                      width={192}
-                      height={192}
-                      fill="#000000"
-                      viewBox="0 0 256 256"
-                    >
-                      <rect width={256} height={256} fill="none" />
-                      <path
-                        d="M40,64V192a16,16,0,0,0,16,16H216a8,8,0,0,0,8-8V88a8,8,0,0,0-8-8H56A16,16,0,0,1,40,64v0A16,16,0,0,1,56,48H192"
-                        fill="none"
-                        className="stroke-current"
-                        // stroke="#000000"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={16}
-                      />
-                      <circle cx={180} cy={144} r={12} />
-                    </svg>
-                    Connect&nbsp;
-                    <span className="hidden sm:inline">your&nbsp;</span>
-                    wallet
-                  </A>
-                </div>
               </nav>
             </div>
             <div className="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6">
@@ -194,6 +118,62 @@ export default function Hero() {
                   Vote with your dollars, and give underrated voices the
                   visibility they deserve.
                 </p>
+              </div>
+
+              <div className="flex items-center justify-center inset-y-0 right-0 space-x-4 my-10">
+                <button
+                  type="button"
+                  className="inline-flex items-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-brand-blue bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                  data-aos="zoom-in-up"
+                  onClick={() => setIsOpen(true)}
+                >
+                  <svg
+                    className="-ml-1 mr-3 h-5 w-5"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"
+                    />
+                  </svg>
+                  <span className="hidden sm:inline">Watch&nbsp;</span>
+                  Intro
+                </button>
+                <A
+                  type="button"
+                  className="inline-flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-brand hover:bg-brand-blue md:py-4 md:text-lg md:px-10 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                  href="https://ideamarket.io"
+                  data-aos="zoom-in-down"
+                >
+                  <svg
+                    className="-ml-1 mr-3 h-5 w-5"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width={192}
+                    height={192}
+                    fill="#000000"
+                    viewBox="0 0 256 256"
+                  >
+                    <rect width={256} height={256} fill="none" />
+                    <path
+                      d="M40,64V192a16,16,0,0,0,16,16H216a8,8,0,0,0,8-8V88a8,8,0,0,0-8-8H56A16,16,0,0,1,40,64v0A16,16,0,0,1,56,48H192"
+                      fill="none"
+                      className="stroke-current"
+                      // stroke="#000000"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={16}
+                    />
+                    <circle cx={180} cy={144} r={12} />
+                  </svg>
+                  Connect&nbsp;
+                  <span className="hidden sm:inline">your&nbsp;</span>
+                  wallet
+                </A>
               </div>
 
               <div className="flex flex-wrap justify-center space-x-4 mt-4">
