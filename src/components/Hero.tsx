@@ -222,7 +222,7 @@ export default function Hero() {
               <div className="flex-1 w-full bg-brand" />
             </div>
             <div className="max-w-7xl mx-auto px-4 sm:px-6">
-              <A href="https://ideamarket.io">
+              <A href="https://ideamarket.io" className="flex justify-center">
                 <img
                   className="relative rounded-lg shadow-2xl"
                   src="/preview.png"
