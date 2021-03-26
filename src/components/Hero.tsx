@@ -92,7 +92,7 @@ export default function Hero() {
                           src="/logo/vector/logo.svg"
                           alt="Ideamarket Logo"
                         />
-                        <span className="hidden sm:block text-3xl font-semibold">
+                        <span className="text-3xl font-semibold">
                           Ideamarket
                         </span>
                       </div>
@@ -120,7 +120,7 @@ export default function Hero() {
                 </p>
               </div>
 
-              <div className="flex items-center justify-center inset-y-0 right-0 space-x-4 my-10">
+              <div className="flex items-center justify-center inset-y-0 right-0 space-x-2 sm:space-x-4 my-10">
                 <button
                   type="button"
                   className="inline-flex items-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-brand-blue bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"

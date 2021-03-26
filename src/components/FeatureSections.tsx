@@ -89,7 +89,7 @@ export default function FeatureSections() {
   return (
     <>
       <div className="relative space-y-24 bg-gray-50 py-32 overflow-hidden">
-        <div className="relative">
+        <div className="relative px-2">
           <h2 className="text-center text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
             How it works
           </h2>
