@@ -76,7 +76,7 @@ export default function Hero() {
               </svg>
             </div>
           </div>
-          <div className="relative pt-6 pb-16 sm:pb-24">
+          <div className="relative pt-6 pb-16 sm:pb-16">
             <div className="max-w-7xl mx-auto px-4 sm:px-6">
               <nav
                 className="relative flex items-center justify-between sm:h-10 md:justify-center"
@@ -124,7 +124,7 @@ export default function Hero() {
 
                   <button
                     type="button"
-                    className="hidden sm:inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                    className="hidden sm:inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-brand-blue bg-indigo-100 hover:bg-indigo-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                     data-aos="zoom-in-up"
                     onClick={() => setIsOpen(true)}
                   >
@@ -146,7 +146,7 @@ export default function Hero() {
                   </button>
                   <A
                     type="button"
-                    className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-900 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                    className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-brand hover:bg-brand-blue focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                     href="https://ideamarket.io"
                     data-aos="zoom-in-down"
                   >
@@ -184,7 +184,7 @@ export default function Hero() {
                   data-aos="zoom-y-out"
                 >
                   <span className="block">Credibility without</span>
-                  <span className="block text-indigo-600"> corporations</span>
+                  <span className="block text-brand-blue"> corporations</span>
                 </h1>
                 <p
                   className="mt-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl"
@@ -195,12 +195,63 @@ export default function Hero() {
                   visibility they deserve.
                 </p>
               </div>
+
+              <div className="flex flex-wrap justify-center space-x-4 mt-4">
+                <div
+                  className="mt-4 ml-8 flex flex-grow flex-shrink-0 justify-center lg:flex-grow-0 lg:ml-4 w-20 md:w-44"
+                  data-aos="zoom-y-out"
+                >
+                  <A
+                    href="https://www.nasdaq.com/articles/ideamarket-is-a-literal-marketplace-for-ideas-and-online-reputation-2021-02-19"
+                    target="_blank"
+                    rel="noopener noreferrer nofollow"
+                  >
+                    <img
+                      className="h-10"
+                      src="https://ideamarket.io/nasdaq.png"
+                      alt="Nasdaq"
+                    />
+                  </A>
+                </div>
+                <div
+                  className="mt-4 ml-8 flex flex-grow flex-shrink-0 justify-center lg:flex-grow-0 lg:ml-4 w-20 md:w-44"
+                  data-aos="zoom-y-out"
+                >
+                  <A
+                    href="https://www.vice.com/en/article/pkd8nb/people-have-spent-over-dollar1-million-on-a-literal-marketplace-of-ideas"
+                    target="_blank"
+                    rel="noopener noreferrer nofollow"
+                  >
+                    <img
+                      className="h-10"
+                      src="https://ideamarket.io/vice.png"
+                      alt="Vice"
+                    />
+                  </A>
+                </div>
+                <div
+                  className="mt-4 ml-8 flex flex-grow flex-shrink-0 justify-center lg:flex-grow-0 lg:ml-4 w-20 md:w-44"
+                  data-aos="zoom-y-out"
+                >
+                  <A
+                    href="https://www.coindesk.com/ideamarket-online-ideas-online-reputation"
+                    target="_blank"
+                    rel="noopener noreferrer nofollow"
+                  >
+                    <img
+                      className="h-10"
+                      src="https://ideamarket.io/coindesk.png"
+                      alt="Coindesk"
+                    />
+                  </A>
+                </div>
+              </div>
             </div>
           </div>
           <div className="relative" data-aos="zoom-y-out" data-aos-delay="450">
             <div className="absolute inset-0 flex flex-col" aria-hidden="true">
               <div className="flex-1" />
-              <div className="flex-1 w-full bg-indigo-900" />
+              <div className="flex-1 w-full bg-brand" />
             </div>
             <div className="max-w-7xl mx-auto px-4 sm:px-6">
               <img
@@ -212,7 +263,7 @@ export default function Hero() {
           </div>
         </div>
 
-        <div className="bg-indigo-900">
+        <div className="bg-brand">
           <div className="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
             <div className="flex gap-8 items-center justify-center">
               <div

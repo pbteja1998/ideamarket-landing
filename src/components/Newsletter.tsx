@@ -5,7 +5,7 @@ export default function Newsletter() {
     <>
       <div className="bg-gray-50" data-aos="fade-up">
         <div className="max-w-7xl mx-auto px-4 py-12 sm:px-6 lg:py-16 lg:px-8">
-          <div className="px-6 py-6 bg-indigo-900 rounded-lg md:py-12 md:px-12 lg:py-16 lg:px-16 xl:flex xl:items-center">
+          <div className="px-6 py-6 bg-brand rounded-lg md:py-12 md:px-12 lg:py-16 lg:px-16 xl:flex xl:items-center">
             <div className="xl:w-0 xl:flex-1">
               <h2 className="text-2xl font-extrabold tracking-tight text-white sm:text-3xl">
                 Want product news and updates?
@@ -30,7 +30,7 @@ export default function Newsletter() {
                 />
                 <button
                   type="submit"
-                  className="mt-3 w-full flex items-center justify-center px-5 py-3 border border-transparent shadow text-base font-medium rounded-md text-white bg-indigo-500 hover:bg-indigo-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-indigo-700 focus:ring-white sm:mt-0 sm:ml-3 sm:w-auto sm:flex-shrink-0"
+                  className="mt-3 w-full flex items-center justify-center px-5 py-3 border border-transparent shadow text-base font-medium rounded-md text-white bg-brand-blue hover:bg-indigo-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-indigo-700 focus:ring-white sm:mt-0 sm:ml-3 sm:w-auto sm:flex-shrink-0"
                 >
                   Notify me
                 </button>

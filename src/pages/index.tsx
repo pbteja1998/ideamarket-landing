@@ -4,7 +4,6 @@ import {
   Footer,
   Hero,
   Newsletter,
-  Press,
   Team,
 } from '@/components'
 import { NextSeo } from 'next-seo'
@@ -45,7 +44,6 @@ export default function Home() {
       <Hero />
       <FeatureSections />
       <Team />
-      <Press />
       <FAQSection />
       <Newsletter />
       <Footer />

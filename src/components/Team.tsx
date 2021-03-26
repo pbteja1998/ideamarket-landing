@@ -15,11 +15,7 @@ type Member = {
 function TeamMember({ member }: { member: Member }) {
   return (
     <li>
-      <div
-        className="space-y-4 sm:grid sm:grid-cols-3 sm:gap-6 sm:space-y-0 lg:gap-8"
-        // data-aos="fade-left"
-        // data-aos="flip-left"
-      >
+      <div className="space-y-4 sm:grid sm:grid-cols-3 sm:gap-6 sm:space-y-0 lg:gap-8">
         <div
           className="h-0 aspect-w-3 aspect-h-2 sm:aspect-w-3 sm:aspect-h-4"
           data-aos="flip-left"
@@ -34,7 +30,7 @@ function TeamMember({ member }: { member: Member }) {
           <div className="space-y-4">
             <div className="text-lg leading-6 font-medium space-y-1">
               <h3>{member.name}</h3>
-              <p className="text-indigo-600">{member.role}</p>
+              <p className="text-brand-blue">{member.role}</p>
             </div>
             <div className="text-lg">
               <div className="text-gray-500 prose prose-indigo">

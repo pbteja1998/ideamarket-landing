@@ -33,7 +33,7 @@ function FeatureSection({
         >
           <div>
             <div>
-              <span className="h-12 w-12 rounded-md flex items-center justify-center bg-indigo-900">
+              <span className="h-12 w-12 rounded-md flex items-center justify-center bg-brand">
                 {icon}
               </span>
             </div>
@@ -47,7 +47,7 @@ function FeatureSection({
               <div className="mt-6">
                 <A
                   href={action.href}
-                  className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-900 hover:bg-indigo-700"
+                  className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-brand hover:bg-brand-blue"
                 >
                   {action.title}
                 </A>

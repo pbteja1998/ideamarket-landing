@@ -13,6 +13,8 @@ module.exports = {
     extend: {
       colors: {
         violet: colors.violet,
+        brand: '#082464',
+        'brand-blue': 'rgba(8, 87, 224)',
       },
     },
   },
