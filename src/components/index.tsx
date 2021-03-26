@@ -1,0 +1,7 @@
+export { default as Hero } from './Hero'
+export { default as FeatureSections } from './FeatureSections'
+export { default as Press } from './Press'
+export { default as Newsletter } from './Newsletter'
+export { default as Footer } from './Footer'
+export { default as Team } from './Team'
+export { default as FAQSection } from './FAQSection'
