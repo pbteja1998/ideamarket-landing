@@ -189,6 +189,61 @@ protocol. Compound lends these deposits to borrowers, who pay interest
             </>
           }
         />
+        <div className="flex items-center justify-center inset-y-0 right-0 space-x-2 sm:space-x-4">
+          <A
+            type="button"
+            className="inline-flex items-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-brand-blue bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+            data-aos="zoom-in-up"
+            href="https://docs.ideamarket.io"
+          >
+            <svg
+              className="-ml-1 mr-3 h-6 w-6"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
+              />
+            </svg>
+            <span className="hidden sm:inline">Full&nbsp;</span>
+            Docs
+          </A>
+          <A
+            type="button"
+            className="inline-flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-brand hover:bg-brand-blue md:py-4 md:text-lg md:px-10 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+            href="https://ideamarket.io"
+            data-aos="zoom-in-down"
+          >
+            <svg
+              className="-ml-1 mr-3 h-6 w-6"
+              xmlns="http://www.w3.org/2000/svg"
+              width={192}
+              height={192}
+              fill="#000000"
+              viewBox="0 0 256 256"
+            >
+              <rect width={256} height={256} fill="none" />
+              <path
+                d="M40,64V192a16,16,0,0,0,16,16H216a8,8,0,0,0,8-8V88a8,8,0,0,0-8-8H56A16,16,0,0,1,40,64v0A16,16,0,0,1,56,48H192"
+                fill="none"
+                className="stroke-current"
+                // stroke="#000000"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={16}
+              />
+              <circle cx={180} cy={144} r={12} />
+            </svg>
+            Connect&nbsp;
+            <span className="hidden sm:inline">your&nbsp;</span>
+            wallet
+          </A>
+        </div>
       </div>
     </>
   )
