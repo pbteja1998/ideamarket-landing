@@ -9,10 +9,10 @@ import {
 import { NextSeo } from 'next-seo'
 
 export default function Home() {
-  const title = 'Ideamarket – Credibility without corporations'
+  const title = 'Ideamarket – Maximize return on attention'
   const description =
-    'Vote with your dollars, and give underrated voices the visibility they deserve.'
-  const url = 'https://ideamarket.bhanuteja.dev'
+    "Profit by discovering and popularizing the world's best knowledge."
+  const url = 'https://ideamarket.io'
   return (
     <>
       <NextSeo
@@ -31,7 +31,7 @@ export default function Home() {
               height: 675,
               alt: 'Ideamarket',
             },
-            { url: '/preview-2.png' },
+            { url: '/preview.png' },
           ],
           site_name: 'Ideamarket',
         }}
