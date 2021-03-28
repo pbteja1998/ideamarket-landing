@@ -1,7 +1,15 @@
 import classNames from 'classnames'
 import { ReactNode } from 'react'
+import useBreakpoint from 'use-breakpoint'
 import A from './A'
 import Markdown from './Markdown'
+
+const BREAKPOINTS = {
+  mobile: 0,
+  sm: 640,
+  md: 768,
+  lg: 1024,
+}
 
 function FeatureSection({
   isReverse = false,
@@ -21,15 +29,18 @@ function FeatureSection({
   }
   icon: ReactNode
 }) {
+  const { breakpoint } = useBreakpoint(BREAKPOINTS, 'mobile')
   return (
     <div>
       <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
         <div
           className={classNames(
             'px-4 max-w-xl mx-auto sm:px-6 lg:max-w-none lg:mx-0 lg:px-0 lg:py-16',
-            isReverse && 'lg:col-start-2'
+            isReverse && breakpoint === 'lg' && 'lg:col-start-2'
           )}
-          data-aos={isReverse ? 'fade-left' : 'fade-right'}
+          data-aos={
+            isReverse && breakpoint === 'lg' ? 'fade-left' : 'fade-right'
+          }
         >
           <div>
             <div>
@@ -44,28 +55,22 @@ function FeatureSection({
               <div className="mt-4 prose text-gray-500">
                 <Markdown>{content}</Markdown>
               </div>
-              <div className="mt-6">
-                <A
-                  href={action.href}
-                  className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-brand-blue hover:bg-blue-800"
-                >
-                  {action.title}
-                </A>
-              </div>
             </div>
           </div>
         </div>
         <div
           className={classNames(
             'mt-12 sm:mt-16 lg:mt-0',
-            isReverse && 'lg:col-start-1'
+            isReverse && breakpoint === 'lg' && 'lg:col-start-1'
           )}
-          data-aos={isReverse ? 'fade-right' : 'fade-left'}
+          data-aos={
+            isReverse && breakpoint === 'lg' ? 'fade-right' : 'fade-left'
+          }
         >
           <div
             className={classNames(
               'lg:px-0 lg:m-0 lg:relative lg:h-full',
-              isReverse
+              isReverse && breakpoint === 'lg'
                 ? 'pr-4 -ml-48 sm:pr-6 md:-ml-16'
                 : 'pl-4 -mr-48 sm:pl-6 md:-mr-16'
             )}
@@ -73,7 +78,7 @@ function FeatureSection({
             <img
               className={classNames(
                 'w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:h-full lg:w-auto lg:max-w-none',
-                isReverse ? 'lg:right-0' : 'lg:left-0'
+                isReverse && breakpoint === 'lg' ? 'lg:right-0' : 'lg:left-0'
               )}
               src={img.src}
               alt={img.alt}
@@ -91,11 +96,11 @@ export default function FeatureSections() {
       <div className="relative space-y-24 bg-gray-50 py-32 overflow-hidden">
         <div className="relative px-2">
           <h2 className="text-center text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-            How it works
+            It's the internet age. Why is "obscure" genius still a thing?
           </h2>
           <p className="mt-4 max-w-3xl mx-auto text-center text-xl text-gray-500">
-            Ideamarket aims to replace corporate media as the arbiter of public
-            credibility by offering creators a new income stream based on trust.
+            Ideamarket replaces corporate media as the arbiter of public
+            credibility, and gives creators a new income stream based on trust.
           </p>
         </div>
         <FeatureSection
@@ -222,26 +227,18 @@ protocol. Compound lends these deposits to borrowers, who pay interest
             <svg
               className="-ml-1 mr-3 h-6 w-6"
               xmlns="http://www.w3.org/2000/svg"
-              width={192}
-              height={192}
-              fill="#000000"
-              viewBox="0 0 256 256"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
             >
-              <rect width={256} height={256} fill="none" />
               <path
-                d="M40,64V192a16,16,0,0,0,16,16H216a8,8,0,0,0,8-8V88a8,8,0,0,0-8-8H56A16,16,0,0,1,40,64v0A16,16,0,0,1,56,48H192"
-                fill="none"
-                className="stroke-current"
-                // stroke="#000000"
                 strokeLinecap="round"
                 strokeLinejoin="round"
-                strokeWidth={16}
+                strokeWidth={2}
+                d="M11 16l-4-4m0 0l4-4m-4 4h14m-5 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h7a3 3 0 013 3v1"
               />
-              <circle cx={180} cy={144} r={12} />
             </svg>
-            Connect&nbsp;
-            <span className="hidden sm:inline">your&nbsp;</span>
-            wallet
+            Launch App
           </A>
         </div>
       </div>
