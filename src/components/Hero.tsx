@@ -1,11 +1,7 @@
-import { useState } from 'react'
 import A from './A'
-import Modal from './Modal'
 export default function Hero() {
-  const [isOpen, setIsOpen] = useState(false)
   return (
     <>
-      <Modal isOpen={isOpen} setIsOpen={setIsOpen} />
       <div className="bg-gray-50">
         <div className="relative overflow-hidden">
           <div className="absolute inset-y-0 h-full w-full" aria-hidden="true">
